@@ -1,0 +1,20 @@
+package com.threadSchedule.demo;
+
+public class ThreadSleepAssist2 implements Runnable {
+    public void run(){
+        for (int i=1;i<4;i++){
+            System.out.println("ThreadSleepAssist2 线程第"+i+"次执行");
+            try{
+                System.out.println("ThreadSleepAssist2 开始休眠");
+
+                Thread.sleep(2000);
+
+                System.out.println("ThreadSleepAssist2 休眠完成");
+            }
+            catch (InterruptedException ex){
+                ex.printStackTrace();
+            }
+        }
+    }
+
+}

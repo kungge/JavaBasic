@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bookstore>
+    <book id="906001">
+        <name>爱玲说</name>
+        <author>坤哥哥</author>
+        <year>2019</year>
+        <price>35</price>
+    </book>
+    <book id="906002">
+        <name>坤玲说</name>
+        <year>2019</year>
+        <price>35</price>
+        <language>中文</language>
+    </book>
+</bookstore>
