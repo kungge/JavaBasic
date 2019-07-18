@@ -16,6 +16,8 @@ public class PropertiesPlaceHolder extends Properties {
     public PropertiesPlaceHolder(){
         String path=ConfigConstant.PROPERTIES_CONFIG_PATH.getPath();
 
+        System.out.println("PropertiesPlaceHolder 获取path="+path);
+
         try(
                 InputStream inputStream=this.getClass().getClassLoader().getResourceAsStream(path)
                 ){
