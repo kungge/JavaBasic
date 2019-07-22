@@ -10,7 +10,7 @@ public class JDBCUtils {
     //加载驱动
     static{
         try{
-            Class.forName(DriverInfoEnum.DRIVER_CLASS.getInfo());
+            //Class.forName(DriverInfoEnum.DRIVER_CLASS.getInfo());
         }catch (Exception e){
             e.printStackTrace();
         }

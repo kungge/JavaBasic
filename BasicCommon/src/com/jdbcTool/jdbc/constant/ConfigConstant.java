@@ -4,7 +4,7 @@ package com.jdbcTool.jdbc.constant;
  * 使用枚举定义常量
  */
 public enum  ConfigConstant {
-    PROPERTIES_CONFIG_PATH("dataSource.properties");
+    PROPERTIES_CONFIG_PATH("BasicCommon\\resources\\dataSource.properties");
 
     private String path;
 
